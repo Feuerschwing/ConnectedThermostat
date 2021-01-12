@@ -1,0 +1,9 @@
+verbosity=1
+logo=disabled
+console=serial
+disp_mode=1920x1080p60
+overlay_prefix=sun8i-h3
+overlays=i2c0 usbhost2 usbhost3
+rootdev=UUID=4618846b-19e6-421b-8872-767a46ed5e1e
+rootfstype=ext4
+usbstoragequirks=0x2537:0x1066:u,0x2537:0x1068:u
